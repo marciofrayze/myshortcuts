@@ -11,6 +11,7 @@
 
 * **Previous|Next buffer**: C-x LEFT|RIGHT
 * **Another window**: C-x o
+* **Kill current window**: C-x 0
 
 ## Font
 
