@@ -12,6 +12,10 @@
 * **Previous|Next buffer**: C-x LEFT|RIGHT
 * **Another window**: C-x o
 
+## Font
+
+* **Increase|Decrease size**: C-x C-+|- 
+
 ### Ruller (fill-column-indicator plugin)
 
 * **Show**: fci-mode
@@ -20,9 +24,7 @@
 ## Bookmark
 
 * **Add to bookmark**: ctrl + x r m  
-* **List bookmarks**: ctrl + x r l
-
-## eshell
+* **List bookmarks**: ctrl + x r l2
 
  * **Open file**: find-file <filename>
 
