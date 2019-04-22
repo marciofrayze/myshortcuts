@@ -16,6 +16,15 @@
 
 * **Increase|Decrease size**: C-x C-+|- 
 
+## Resize window
+* **Increase|Decrease size**: s- UP|DOWN|LEFT|RIGHT
+```
+(global-set-key (kbd "<s-up>") 'shrink-window)
+(global-set-key (kbd "<s-down>") 'enlarge-window)
+(global-set-key (kbd "<s-left>") 'shrink-window-horizontally)
+(global-set-key (kbd "<s-right>") 'enlarge-window-horizontally)
+```
+
 ### Ruller (fill-column-indicator plugin)
 
 * **Show**: fci-mode
