@@ -13,6 +13,10 @@
 * **Another window**: C-x o
 * **Kill current window**: C-x 0
 
+## ansi-term
+* **Activate term-line-mode**: C-x C-j
+* **Switch back to character mode**: C-c C-k
+ 
 ## Font
 
 * **Increase|Decrease size**: C-x C-+|- 
