@@ -21,3 +21,5 @@ minikube addons enable metrics-server
 minikube dashboard  
 minikube start --memory 4096  
 minikube delete  
+minikube config set memory 8192  
+minikube config set cpus 2  
