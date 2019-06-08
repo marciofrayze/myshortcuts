@@ -1,4 +1,4 @@
-# Docker/Kubernetes/Minikube/Minishift
+# Docker/Kubernetes/Minikube/OpenShift/Minishift
 
 ## Docker
 docker build -t some/tagname .  
@@ -44,3 +44,13 @@ minikube start --memory 4096
 minikube delete  
 minikube config set memory 8192  
 minikube config set cpus 2  
+
+# OpenShift
+oc login https://masternode.address.com:8443 -u username -p password  
+oc whoami  
+oc project <projectname>  
+oc new-project <projectname>  
+oc status  
+oc delete project <projectname>  
+oc logout  
+oc login -u system:admin  
