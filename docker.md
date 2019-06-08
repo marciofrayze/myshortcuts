@@ -6,6 +6,21 @@ docker build -t <app> .
 docker run <app>  
 docker rmi <image>
   
+# Dockerfile example
+```
+# This is a comment
+FROM rhel7.3
+LABEL description="Custom httpd container image"
+MAINTAINER  Marcio Frayze David <mfdavid@gmail.com>
+RUN yum install -y httpd
+EXPOSE 80
+ENV LogLevel "info"
+ADD http://someserver.com/file/filename.pdf /var/www/html
+USER apache
+ENTRYPOINT ["/usr/sbin/httpd"]
+CMD ["-d","FOREGROUND"]
+```
+  
 ## Kubernetes
 kubectl get nodes  
 kubectl cluster-info  
