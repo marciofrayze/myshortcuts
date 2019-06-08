@@ -1,7 +1,6 @@
 # Docker/Kubernetes/Minikube/Minishift
 
-## Generating local docker image
-eval $(minikube docker-env)  
+## Docker
 docker build -t <app> .  
 docker run <app>  
 docker rmi <image>
@@ -24,8 +23,7 @@ USER apache
 ENTRYPOINT ["/usr/sbin/httpd"]
 CMD ["-d","FOREGROUND"]
 ```
-**Build image with:** docker build -t sometag/name .
-  
+
 ## Kubernetes
 kubectl get nodes  
 kubectl cluster-info  
@@ -37,6 +35,7 @@ kubectl get apiservices
 kubectl create namespace mem-example  
 
 ## Minikube
+eval $(minikube docker-env)  
 minikube ip  
 minikube addons enable metrics-server  
 minikube dashboard  
