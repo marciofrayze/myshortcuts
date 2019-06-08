@@ -10,9 +10,9 @@ docker rmi <image>
 ```
 # This is a comment
 FROM rhel7.3
+MAINTAINER  Marcio Frayze David <mfdavid@gmail.com>
 LABEL description="Custom httpd container image" \
       version="1.0"
-MAINTAINER  Marcio Frayze David <mfdavid@gmail.com>
 RUN yum update -y && \
     yum install -y httpd && \
     yum clean all
