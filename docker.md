@@ -10,11 +10,15 @@ docker rmi <image>
 ```
 # This is a comment
 FROM rhel7.3
-LABEL description="Custom httpd container image"
+LABEL description="Custom httpd container image" \
+      version="1.0"
 MAINTAINER  Marcio Frayze David <mfdavid@gmail.com>
-RUN yum install -y httpd
+RUN yum update -y && \
+    yum install -y httpd && \
+    yum clean all
 EXPOSE 80
-ENV LogLevel "info"
+ENV LogLevel "info" \
+    HELLO "World"
 ADD http://someserver.com/file/filename.pdf /var/www/html
 USER apache
 ENTRYPOINT ["/usr/sbin/httpd"]
