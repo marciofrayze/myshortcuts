@@ -24,6 +24,7 @@ USER apache
 ENTRYPOINT ["/usr/sbin/httpd"]
 CMD ["-d","FOREGROUND"]
 ```
+**Build image with:** docker build -t sometag/name .
   
 ## Kubernetes
 kubectl get nodes  
