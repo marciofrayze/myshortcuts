@@ -1,10 +1,11 @@
-# Minikube/Kubernetes/Docker
+# Docker/Kubernetes/Minikube/Minishift
 
 ## Generating local docker image
 eval $(minikube docker-env)  
-docker build -t app .  
-docker run app  
-
+docker build -t <app> .  
+docker run <app>  
+docker rmi <image>
+  
 ## Kubernetes
 kubectl get nodes  
 kubectl cluster-info  
