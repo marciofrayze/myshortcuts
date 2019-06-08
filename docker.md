@@ -1,9 +1,10 @@
 # Docker/Kubernetes/Minikube/Minishift
 
 ## Docker
-docker build -t <app> .  
-docker run <app>  
-docker rmi <image>
+docker build -t some/tagname .  
+docker run <image>  
+docker rmi <image>  
+docker inspect <image>  
   
 # Dockerfile example
 ```
