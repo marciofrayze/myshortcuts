@@ -54,3 +54,6 @@ oc status
 oc delete project <projectname>  
 oc logout  
 oc login -u system:admin  
+oc get pods  
+oc descript pod <podname>  
+oc get svc  
