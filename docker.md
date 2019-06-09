@@ -55,5 +55,10 @@ oc delete project <projectname>
 oc logout  
 oc login -u system:admin  
 oc get pods  
-oc descript pod <podname>  
-oc get svc  
+oc descript pod <podname>   
+oc <projectname> <language>:<version>~<gitrepository>  
+oc start-build <projectname>  
+oc expose service <servicename> --name <routename>  
+oc edit route/<name>  
+oc get svc 
+oc expose svc <servicename>  
