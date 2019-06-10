@@ -34,6 +34,7 @@ kubectl expose deployment/app --type="NodePort" --port 8080
 kubectl describe services/app  
 kubectl get apiservices  
 kubectl create namespace mem-example  
+kubectl config view -o jsonpath='{"Cluster name\tServer\n"}{range .clusters[*]}{.name}{"\t"}{.cluster.server}{"\n"}{end}'  
 
 ## Minikube
 eval $(minikube docker-env)  
