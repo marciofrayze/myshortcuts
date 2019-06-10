@@ -38,6 +38,7 @@ kubectl config view -o jsonpath='{"Cluster name\tServer\n"}{range .clusters[*]}{
 kubectl config get-contexts  
 kubectl config use-context <contextname>  
 kubectl get services  
+kubectl describe service load-balancer  
 
 ## Minikube
 eval $(minikube docker-env)  
