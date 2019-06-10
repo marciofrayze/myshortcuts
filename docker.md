@@ -42,6 +42,21 @@ kubectl config use-context <contextname>
 kubectl get services  
 kubectl describe service load-balancer  
 
+# Deployment yaml example
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx
+```
+
 ## Minikube
 eval $(minikube docker-env)  
 minikube ip  
