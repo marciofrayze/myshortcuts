@@ -36,7 +36,8 @@ kubectl get apiservices
 kubectl create namespace mem-example  
 kubectl config view -o jsonpath='{"Cluster name\tServer\n"}{range .clusters[*]}{.name}{"\t"}{.cluster.server}{"\n"}{end}'  
 kubectl config get-contexts  
-kubectl config use-context <contextname>    
+kubectl config use-context <contextname>  
+kubectl get services  
 
 ## Minikube
 eval $(minikube docker-env)  
