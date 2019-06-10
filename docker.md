@@ -41,6 +41,7 @@ kubectl config get-contexts
 kubectl config use-context <contextname>  
 kubectl get services  
 kubectl describe service load-balancer  
+kubecrl edit pod <podname>  
 
 # Pod yaml example
 ```
