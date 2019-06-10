@@ -42,7 +42,7 @@ kubectl config use-context <contextname>
 kubectl get services  
 kubectl describe service load-balancer  
 
-# Deployment yaml example
+# Pod yaml example
 ```
 apiVersion: v1
 kind: Pod
