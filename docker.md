@@ -92,6 +92,7 @@ kubectl get replicaset
 kubectl replace -f replicaset-definition.yaml  
 kubectl scale --replicas=6 -f replicaset-definition.yaml   
 kubectl delete replicaset <replicasetname>    
+kubecrl describe replicaset <replicaset>  
 
 ## Minikube
 eval $(minikube docker-env)  
