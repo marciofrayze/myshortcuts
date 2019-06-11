@@ -46,7 +46,7 @@ kubecrl get pods -o wide
 kubecrl describe pod <podname>  
 kubectl get pod <pod-name> -o yaml > pod-definition.yaml  
 
-## Pod yaml example
+## Pod Definition yaml example
 ```
 apiVersion: v1
 kind: Pod
@@ -59,6 +59,28 @@ spec:
   containers:
     - name: nginx-container
       image: nginx
+```
+
+## Replication Controller yaml example
+```
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: myapp-rc
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  template:
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        type: front-end
+  spec:
+    containers:
+      - name: nginx-container
+        image: nginx
 ```
 
 ## Minikube
