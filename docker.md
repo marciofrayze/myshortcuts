@@ -87,10 +87,11 @@ spec:
     matchLabels:  
       type: front-end
 ```
-**kubectl create -f replicaset-definition.yaml** 
-**kubectl get replicaset** 
-**kubectl replace -f replicaset-definition.yaml** 
-**kubectl scale --replicas=6 -f replicaset-definition.yaml** 
+kubectl create -f replicaset-definition.yaml   
+kubectl get replicaset  
+kubectl replace -f replicaset-definition.yaml  
+kubectl scale --replicas=6 -f replicaset-definition.yaml   
+kubectl delete replicaset <replicasetname>    
 
 ## Minikube
 eval $(minikube docker-env)  
