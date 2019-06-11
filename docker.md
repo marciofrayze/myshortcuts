@@ -77,10 +77,10 @@ spec:
       labels:
         app: myapp
         type: front-end
-  spec:
-    containers:
-      - name: nginx-container
-        image: nginx
+    spec:
+      containers:
+        - name: nginx-container
+          image: nginx
 ```
 
 ## Minikube
