@@ -81,6 +81,7 @@ spec:
       containers:
         - name: nginx-container
           image: nginx
+  replicas: 2    
 ```
 
 ## Minikube
