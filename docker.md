@@ -62,12 +62,12 @@ spec:
 ```
 **kubectl apply -f pod-definition.yaml**  
 
-## Replication Controller yaml example
+## ReplicaSet yaml example
 ```
 apiVersion: v1
-kind: ReplicationController
+kind: ReplicaSet
 metadata:
-  name: myapp-rc
+  name: myapp-replicaset
   labels:
     app: myapp
     type: front-end
@@ -82,10 +82,13 @@ spec:
       containers:
         - name: nginx-container
           image: nginx
-  replicas: 2    
+  replicas: 2  
+  selector: 
+    matchLabels:  
+      type: front-end
 ```
-**kubectl create -f rc-definition.yaml** 
-**kubectl get replicationcontroller** 
+**kubectl create -f replicaset-definition.yaml** 
+**kubectl get replicaset** 
 
 ## Minikube
 eval $(minikube docker-env)  
