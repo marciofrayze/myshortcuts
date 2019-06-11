@@ -60,6 +60,7 @@ spec:
     - name: nginx-container
       image: nginx
 ```
+**kubectl apply -f pod-definition.yaml**
 
 ## Replication Controller yaml example
 ```
@@ -83,6 +84,7 @@ spec:
           image: nginx
   replicas: 2    
 ```
+**kubectl create -f rc-definition.yaml**
 
 ## Minikube
 eval $(minikube docker-env)  
