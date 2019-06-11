@@ -44,6 +44,7 @@ kubectl describe service load-balancer
 kubecrl edit pod <podname>  
 kubecrl get pods -o wide  
 kubecrl describe pod <podname>  
+kubectl get pod <pod-name> -o yaml > pod-definition.yaml  
 
 ## Pod yaml example
 ```
