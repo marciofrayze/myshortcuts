@@ -8,7 +8,7 @@ docker inspect <image>
 docker login  
 docker push mfdavoid/<imagename>  
   
-# Dockerfile example
+## Dockerfile example
 ```
 # This is a comment
 FROM rhel7.3
@@ -45,7 +45,7 @@ kubecrl edit pod <podname>
 kubecrl get pods -o wide  
 kubecrl describe pod <podname>  
 
-# Pod yaml example
+## Pod yaml example
 ```
 apiVersion: v1
 kind: Pod
@@ -70,7 +70,7 @@ minikube delete
 minikube config set memory 8192  
 minikube config set cpus 2  
 
-# OpenShift
+## OpenShift
 oc login https://masternode.address.com:8443 -u username -p password  
 oc whoami  
 oc project <projectname>  
