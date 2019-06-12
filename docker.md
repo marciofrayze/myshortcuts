@@ -162,6 +162,22 @@ metadata:
 **Or: kubectl create namespace dev**
 **kubectl config set-context ($kubectl config current-context) --namespace=dev**    
 
+## Creating Compute quota
+```
+apiVersion: v1
+kind: ResourceQuota
+metadata: 
+  name: compute-quota
+  namespace: dev
+spec:
+  hard:
+    pods: "10"
+    request.cpu: "4"
+    request.memory: 5Gi
+    limits.cpu: "10"
+    limits.memory: 10Gi
+```
+
 ## Minikube
 eval $(minikube docker-env)  
 minikube ip  
