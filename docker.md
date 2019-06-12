@@ -151,6 +151,15 @@ status:
   loadBalancer: {}
 ```
 
+## Creating namespace yaml example
+```
+apiVersion: v1
+kind: Namespace
+metadata: 
+  namespace: dev
+```
+**Or: kubectl create namespace dev** 
+
 ## Minikube
 eval $(minikube docker-env)  
 minikube ip  
