@@ -158,7 +158,8 @@ kind: Namespace
 metadata: 
   namespace: dev
 ```
-**Or: kubectl create namespace dev** 
+**Or: kubectl create namespace dev**
+**kubectl config set-context ($kubectl config current-context) --namespace=dev**    
 
 ## Minikube
 eval $(minikube docker-env)  
