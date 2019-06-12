@@ -48,6 +48,7 @@ kubectl get pod <pod-name> -o yaml > pod-definition.yaml
 kubectl run --generator=run-pod/v1 nginx-pod --image=nginx:alpine  
 kubectl expose pod redis --port=6379 --name redis-service  
 kubectl get pods --all-namespaces    
+kubectl top node  
 
 ## Pod Definition yaml example
 ```
