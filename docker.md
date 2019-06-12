@@ -93,6 +93,36 @@ kubectl replace -f replicaset-definition.yaml
 kubectl scale --replicas=6 -f replicaset-definition.yaml   
 kubectl delete replicaset <replicasetname>    
 kubecrl describe replicaset <replicaset>  
+kubectl get all  
+
+## Deployment yaml example
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-deployment
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  template:
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        type: front-end
+    spec:
+      containers:
+        - name: nginx-container
+          image: nginx
+  replicas: 2  
+  selector: 
+    matchLabels:  
+      type: front-end
+```
+kubectl create -f deployment-definition.yaml  
+kubectl get deployment  
+kubectl get all  
 
 ## Minikube
 eval $(minikube docker-env)  
