@@ -58,11 +58,13 @@ metadata:
   namespace: dev
   labels:
     app: myapp
-    type: front-end
+    type: sleeper
 spec:
   containers:
-    - name: nginx-container
+    - name: sleeper
       image: nginx
+      command: ["sleep"]
+      args: ["5000"]
 ```
 **kubectl create -f pod-definition.yaml --namespace=dev**  
 
