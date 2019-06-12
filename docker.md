@@ -96,7 +96,7 @@ kubectl create -f replicaset-definition.yaml
 kubectl get replicaset  
 kubectl replace -f replicaset-definition.yaml  
 kubectl scale --replicas=6 -f replicaset-definition.yaml   
-kubectl delete replicaset <replicasetname>    
+kubectl delete replicaset <replicasetname>   
 kubecrl describe replicaset <replicaset>  
 kubectl get all  
 
@@ -159,7 +159,7 @@ kind: Namespace
 metadata: 
   namespace: dev
 ```
-**Or: kubectl create namespace dev**
+**Or: kubectl create namespace dev**  
 **kubectl config set-context ($kubectl config current-context) --namespace=dev**    
 
 ## Creating Compute quota
@@ -177,6 +177,7 @@ spec:
     limits.cpu: "10"
     limits.memory: 10Gi
 ```
+**kubectl create -f create-quota-definition.yaml **
 
 ## Minikube
 eval $(minikube docker-env)  
