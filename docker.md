@@ -65,6 +65,11 @@ spec:
       image: nginx
       command: ["sleep"]
       args: ["5000"]
+      ports:
+        - containerPort: 8080
+      env:
+        - name: APP_COLOR
+          value: pink
 ```
 **kubectl create -f pod-definition.yaml --namespace=dev**  
 
