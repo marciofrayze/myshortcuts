@@ -62,7 +62,7 @@ spec:
     - name: nginx-container
       image: nginx
 ```
-**kubectl apply -f pod-definition.yaml**  
+**kubectl create -f pod-definition.yaml --namespace=dev**  
 
 ## ReplicaSet yaml example
 ```
