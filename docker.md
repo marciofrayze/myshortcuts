@@ -47,7 +47,7 @@ kubecrl describe pod <podname>
 kubectl get pod <pod-name> -o yaml > pod-definition.yaml  
 kubectl run --generator=run-pod/v1 nginx-pod --image=nginx:alpine  
 kubectl expose pod redis --port=6379 --name redis-service  
-kubectl get pods --all-namespaces  
+kubectl get pods --all-namespaces    
 
 ## Pod Definition yaml example
 ```
@@ -185,6 +185,18 @@ spec:
     limits.memory: 10Gi
 ```
 **kubectl create -f create-quota-definition.yaml **
+
+## Creating Config map
+```
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+  name: app-config
+data:
+  APP_COLOR: blue
+  APP_MODE: prod
+```
+**Or: kubectl create configmap app-config --from-literal=APP_COLOR=blue --from-literal=APP_MODE=prod**
 
 ## Minikube
 eval $(minikube docker-env)  
