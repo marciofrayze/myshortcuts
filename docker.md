@@ -70,6 +70,9 @@ spec:
       env:
         - name: APP_COLOR
           value: pink
+      - envFrom:
+        - configMapRef:
+          name: <configname>
 ```
 **kubectl create -f pod-definition.yaml --namespace=dev**  
 
