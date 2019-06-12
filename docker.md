@@ -126,6 +126,27 @@ kubectl create -f deployment-definition.yaml
 kubectl get deployment  
 kubectl get all  
 
+## Service exposing nodePort yaml example
+```
+apiVersion: v1
+kind: Service
+metadata: 
+  labels:
+    app: webapp
+  name: webapp-service
+spec: 
+  ports: 
+    - port: 8080
+      protocol: TCP
+      targetPort: 8080
+      nodePort: 30082
+  selector:
+    app: webapp
+  type: NodePort
+status: 
+  loadBalancer: {}
+```
+
 ## Minikube
 eval $(minikube docker-env)  
 minikube ip  
