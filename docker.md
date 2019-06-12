@@ -54,6 +54,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: myapp-pod
+  namespace: dev
   labels:
     app: myapp
     type: front-end
@@ -70,6 +71,7 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: myapp-replicaset
+  namespace: dev
   labels:
     app: myapp
     type: front-end
@@ -103,6 +105,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myapp-deployment
+  namespace: dev  
   labels:
     app: myapp
     type: front-end
@@ -131,6 +134,7 @@ kubectl get all
 apiVersion: v1
 kind: Service
 metadata: 
+  namespace: dev
   labels:
     app: webapp
   name: webapp-service
