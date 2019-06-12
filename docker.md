@@ -45,6 +45,7 @@ kubecrl edit pod <podname>
 kubecrl get pods -o wide  
 kubecrl describe pod <podname>  
 kubectl get pod <pod-name> -o yaml > pod-definition.yaml  
+kubectl run --generator=run-pod/v1 nginx-pod --image=nginx:alpine  
 
 ## Pod Definition yaml example
 ```
