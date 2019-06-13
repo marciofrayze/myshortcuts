@@ -50,7 +50,7 @@ kubectl expose pod redis --port=6379 --name redis-service
 kubectl get pods --all-namespaces    
 kubectl top node  
 kubectl top pod  
-kubecrl create secret generic <scretname> --from-literal=<key>=<value>  
+kubectl create secret generic <scretname> \--from-literal=<key>=<value>  
 
 ## Pod Definition yaml example
 ```
