@@ -6,7 +6,7 @@ docker run <image>
 docker rmi <image>  
 docker inspect <image>  
 docker login  
-docker push mfdavoid/<imagename>  
+docker push mfdavid/<imagename>  
   
 ## Dockerfile example
 ```
