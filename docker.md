@@ -76,6 +76,9 @@ spec:
       - envFrom:
         - configMapRef:
           name: <configname>
+      envFrom: 
+        - secretRef: 
+          name: app-config
 ```
 **kubectl create -f pod-definition.yaml --namespace=dev**  
 
@@ -212,9 +215,8 @@ kind: Secret
 metadata: 
   name: app-secret
 data:
-  DB_HOST: postgresql
-  DB_USER: prod
-  DB_PASSWORD: mysupersecretpasswd
+  DB_HOST: bXlzcWw=
+  DB_PASSWORD: cm9vda==
 ```
 **Or: kubecrl create secret generic <scretname> --from-literal=<key>=<value>**
 
