@@ -79,6 +79,10 @@ spec:
       envFrom: 
         - secretRef: 
           name: app-config
+      securityContext:
+        runAsUser: 1000
+        capabilities:
+          add: ["MAC_ADMIN"]
 ```
 **kubectl create -f pod-definition.yaml --namespace=dev**  
 
