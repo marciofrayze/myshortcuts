@@ -50,6 +50,7 @@ kubectl expose pod redis --port=6379 --name redis-service
 kubectl get pods --all-namespaces    
 kubectl top node  
 kubectl top pod  
+kubecrl create secret generic <scretname> --from-literal=<key>=<value>  
 
 ## Pod Definition yaml example
 ```
@@ -202,6 +203,20 @@ data:
   APP_MODE: prod
 ```
 **Or: kubectl create configmap app-config --from-literal=APP_COLOR=blue --from-literal=APP_MODE=prod**
+
+
+## Creating Secret
+```
+apiVersion: v1
+kind: Secret
+metadata: 
+  name: app-secret
+data:
+  DB_HOST: postgresql
+  DB_USER: prod
+  DB_PASSWORD: mysupersecretpasswd
+```
+**Or: kubecrl create secret generic <scretname> --from-literal=<key>=<value>**
 
 ## Minikube
 eval $(minikube docker-env)  
