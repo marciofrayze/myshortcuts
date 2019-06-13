@@ -55,6 +55,7 @@ kubectl exec -it <container> -- /bin/bash
 kubectl create serviceaccount <accountname>  
 kubectl get serviceaccount  
 kubectl describe serviceaccount <accountname>  
+kubectl describe secret <secretname>  
 
 ## Pod Definition yaml example
 ```
@@ -87,6 +88,7 @@ spec:
         runAsUser: 1000
         capabilities:
           add: ["MAC_ADMIN"]
+  serviceAccount: <accountname>
 ```
 **kubectl create -f pod-definition.yaml --namespace=dev**  
 
