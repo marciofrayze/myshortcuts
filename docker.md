@@ -51,6 +51,7 @@ kubectl get pods --all-namespaces
 kubectl top node  
 kubectl top pod  
 kubectl create secret generic <scretname> \--from-literal=<key>=<value>  
+kubectl exec -it <container> -- /bin/bash  
 
 ## Pod Definition yaml example
 ```
