@@ -197,7 +197,7 @@ spec:
     limits.cpu: "10"
     limits.memory: 10Gi
 ```
-**kubectl create -f create-quota-definition.yaml **
+**kubectl create -f create-quota-definition.yaml**
 
 ## Creating Config map
 ```
