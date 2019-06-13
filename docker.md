@@ -52,6 +52,9 @@ kubectl top node
 kubectl top pod  
 kubectl create secret generic <scretname> \--from-literal=<key>=<value>  
 kubectl exec -it <container> -- /bin/bash  
+kubectl create serviceaccount <accountname>  
+kubectl get serviceaccount  
+kubectl describe serviceaccount <accountname>  
 
 ## Pod Definition yaml example
 ```
