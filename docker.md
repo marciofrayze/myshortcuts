@@ -57,6 +57,7 @@ kubectl get serviceaccount
 kubectl describe serviceaccount <accountname>  
 kubectl describe secret <secretname>  
 kublctl taint nodes <nodename> key=value:<tainteffect> (NoSchedule | PreferNoSchedule | NoExecute)  
+kubectl describe node <nodename> | grep Taint  
 
 ## Pod Definition yaml example
 ```
