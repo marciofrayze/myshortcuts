@@ -56,6 +56,7 @@ kubectl create serviceaccount <accountname>
 kubectl get serviceaccount  
 kubectl describe serviceaccount <accountname>  
 kubectl describe secret <secretname>  
+kublctl taint nodes <nodename> key=value:<tainteffect> (NoSchedule | PreferNoSchedule | NoExecute)  
 
 ## Pod Definition yaml example
 ```
@@ -88,6 +89,11 @@ spec:
         runAsUser: 1000
         capabilities:
           add: ["MAC_ADMIN"]
+  tolerations:
+  - key: "myapp"
+    operator: "Equal"
+    value: "blue"
+    effect: "NoSchedule"
   serviceAccount: <accountname>
 ```
 **kubectl create -f pod-definition.yaml --namespace=dev**  
