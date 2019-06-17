@@ -58,7 +58,9 @@ kubectl describe serviceaccount <accountname>
 kubectl describe secret <secretname>  
 kublctl taint nodes <nodename> key=value:<tainteffect> (NoSchedule | PreferNoSchedule | NoExecute)  
 kubectl describe node <nodename> | grep Taint  
-
+kubectl label nodes <nodename> <labelkey>=<labelvalue>  
+kubectl label nodes <node> <labelkey>=<labelvalue>   
+  
 ## Pod Definition yaml example
 ```
 apiVersion: v1
@@ -95,6 +97,8 @@ spec:
     operator: "Equal"
     value: "blue"
     effect: "NoSchedule"
+  nodeSelector: 
+    size: Large 
   serviceAccount: <accountname>
 ```
 **kubectl create -f pod-definition.yaml --namespace=dev**  
