@@ -7,6 +7,7 @@ docker rmi <image>
 docker inspect <image>  
 docker login  
 docker push mfdavid/<imagename>  
+docker logs -f ecf  
   
 ## Dockerfile example
 ```
