@@ -105,7 +105,21 @@ spec:
       - matchExpressions: 
         - key: size 
           operator: in 
-          values: Large    
+          values: Large   
+  livenessProbe: 
+    httpGet: 
+      path: /api/healthy 
+        port: 8080
+    initialDelaySeconds: 10 
+    periodSeconds: 5 
+    failureThreashold: 8
+  readinessProbe: 
+    httpGet: 
+      path: /api/healthy 
+        port: 8080  
+    initialDelaySeconds: 10 
+    periodSeconds: 5 
+    failureThreashold: 8        
   serviceAccount: <accountname>
 ```
 **kubectl create -f pod-definition.yaml --namespace=dev**  
