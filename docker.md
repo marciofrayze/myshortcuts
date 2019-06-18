@@ -99,6 +99,13 @@ spec:
     effect: "NoSchedule"
   nodeSelector: 
     size: Large 
+  affinity: 
+    nodeAffinity: requiredDuringSchedulingIgnoreDuringExecution
+      nodeSelectorTerms: 
+      - matchExpressions: 
+        - key: size 
+          operator: in 
+          values: Large    
   serviceAccount: <accountname>
 ```
 **kubectl create -f pod-definition.yaml --namespace=dev**  
