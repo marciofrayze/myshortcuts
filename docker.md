@@ -61,6 +61,7 @@ kublctl taint nodes <nodename> key=value:<tainteffect> (NoSchedule | PreferNoSch
 kubectl describe node <nodename> | grep Taint  
 kubectl label nodes <nodename> <labelkey>=<labelvalue>  
 kubectl label nodes <node> <labelkey>=<labelvalue>   
+kubctl logs -f <podname>  
   
 ## Pod Definition yaml example
 ```
