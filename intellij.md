@@ -14,3 +14,7 @@ rename - shift f6
 # Find
 go to implementation - ctr + alt + b
 go back - ctr + tab
+
+# Bookmarks
+add - f11
+show - shift + f11
