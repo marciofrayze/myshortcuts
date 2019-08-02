@@ -16,7 +16,6 @@
 ## ansi-term
 * **Activate term-line-mode**: C-x C-j
 * **Switch back to character mode**: C-c C-k
-* **Edit file**: find-file \<\<filename.ext\>\>
  
 ## Font
 
