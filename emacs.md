@@ -16,6 +16,7 @@
 ## ansi-term
 * **Activate term-line-mode**: C-x C-j
 * **Switch back to character mode**: C-c C-k
+* **Edit file**: find-file \<\<filename.ext\>\>
  
 ## Font
 
@@ -39,8 +40,6 @@
 
 * **Add to bookmark**: ctrl + x r m  
 * **List bookmarks**: ctrl + x r l2
-
- * **Open file**: find-file <filename>
 
 ## Dired
 
