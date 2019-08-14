@@ -36,16 +36,16 @@ set ssl_starttls = yes
 set ssl_force_tls = yes 
 unset imap_passive        
 set imap_check_subscribed
-set mail_check=32
-set timeout=10
+set mail_check = 32
+set timeout = 10
 set net_inc = 5
 
 # Default editor
 set editor = "emacs"
 
 # Sorting
-set sort=reverse-threads
-set sort_aux=date-received
+set sort = reverse-threads
+set sort_aux = date-received
 
 # Using .mailcap to view html mails
 auto_view text/html
