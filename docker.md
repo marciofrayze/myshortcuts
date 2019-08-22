@@ -274,6 +274,10 @@ minikube delete
 minikube config set memory 8192  
 minikube config set cpus 2  
 
+## Microk8s
+sudo snap install microk8s --classic --channel=latest
+microk8s.enable dashboard registry istio
+
 ## OpenShift
 oc login https://masternode.address.com:8443 -u username -p password  
 oc whoami  
