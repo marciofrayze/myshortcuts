@@ -5,6 +5,9 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 ## File
 * **Open file*: ```:e filename```
 
+## Run shell
+* **Run a shell command:** ```:!command```
+
 ## Tabs and Windows
 * **Switch tabs**: ```gt```
 * **Move from one window to another**: ```<C-w>h|l```
