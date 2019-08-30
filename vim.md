@@ -17,3 +17,10 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 
 ## Visual-Block mode
 * **Enter Visual-Block mode**: ```<C-v>```
+
+## Bookmark
+* **Show all bookmarks (toggle)**: ```ma```
+* **Add/remove bookmark at current line**: ```mm```
+* **Add/edit/remove annotation at current line**: ```mi```
+* **Jump to next bookmark in buffer**: ```mn```
+* **Jump to previous bookmark in buffer**: ```mp```
