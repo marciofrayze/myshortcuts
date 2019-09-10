@@ -3,7 +3,7 @@
 This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marciofrayze/dot-files/tree/master/vim) as mine.
 
 ## File
-* **Open file*: ```:e filename```
+* **Open file**: ```:e filename```
 
 ## Run shell
 * **Run a shell command:** ```:!command```
