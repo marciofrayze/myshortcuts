@@ -20,8 +20,9 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Enter Visual-Block mode**: ```<C-v>```
 
 ## Insert Normal Mode
-* **Fire off a single comnmand (from insert mode) and go back to insert**: ```<C-o>``` (ex: ```<C-o>dd```)
+* **Fire off a single comnmand (from insert mode) and go back to insert**: ```<C-o>``` (eg: ```<C-o>dd```)
 * **Paste**: ```<C-r>0``` (or 1, 2, 3...)
+* **Expression register (to evaluate a expression)**: ```<C-r>=``` (eg: ```<C-r>=1+1``` will paste 2)
 
 ## Bookmark
 * **Show all bookmarks (toggle)**: ```ma```
