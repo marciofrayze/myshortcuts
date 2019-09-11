@@ -7,6 +7,7 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 
 ## Run shell
 * **Run a shell command:** ```:!command```
+* **Run a shell command and paste stdout into document:** ```:r!command```
 
 ## Tabs and Windows
 * **Switch tabs**: ```gt```
