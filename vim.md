@@ -24,6 +24,11 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Paste**: ```<C-r>0``` (or 1, 2, 3...)
 * **Expression register (to evaluate a expression)**: ```<C-r>=``` (eg: ```<C-r>=1+1``` will paste 2)
 
+## Visual mode (and visual line)
+* **Enter Visual mode**: ```v```
+* **Select paragraph**: ```vip```
+* **Select line**: ```V```
+
 ## Bookmark
 * **Show all bookmarks (toggle)**: ```ma```
 * **Add/remove bookmark at current line**: ```mm```
