@@ -30,6 +30,7 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Delete single char:** ```dl```
 * **Delete complete word:** ```daw```
 * **Delete paragraph:** ```dap```
+* **Delete line**: ```dd```
 
 ## Trigger / Effect
 * **c** ```Change```
