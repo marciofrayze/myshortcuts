@@ -24,3 +24,10 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Add/edit/remove annotation at current line**: ```mi```
 * **Jump to next bookmark in buffer**: ```mn```
 * **Jump to previous bookmark in buffer**: ```mp```
+
+## Operator + Motion = Action
+* **Delete**: ```d{motion}```
+* **Delete single char:** ```dl```
+* **Delete complete word:** ```daw```
+* **Delete paragraph:** ```dap```
+
