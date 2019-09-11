@@ -19,6 +19,9 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 ## Visual-Block mode
 * **Enter Visual-Block mode**: ```<C-v>```
 
+## Insert Normal Mode
+* **Fire off a single comnmand (from insert mode) and go back to insert**: ```<C-o>``` (ex: ```<C-o>dd```)
+
 ## Bookmark
 * **Show all bookmarks (toggle)**: ```ma```
 * **Add/remove bookmark at current line**: ```mm```
@@ -37,8 +40,6 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Delete back one char**: ```<C-h>```
 * **Delete back one word**: ```<C-w>```
 * **Delete back to start of line**: ```<C-u>```
-
-
 
 ## Trigger / Effect
 * **c** ```Change```
