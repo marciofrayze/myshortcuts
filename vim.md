@@ -25,9 +25,20 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Jump to next bookmark in buffer**: ```mn```
 * **Jump to previous bookmark in buffer**: ```mp```
 
-## Operator + Motion = Action
+## Delete
 * **Delete**: ```d{motion}```
 * **Delete single char:** ```dl```
 * **Delete complete word:** ```daw```
 * **Delete paragraph:** ```dap```
 
+## Trigger / Effect
+* **c** ```Change```
+* **d** ```Delete```
+* **y** ```Yank into register```
+* **g~** ```Swap case```
+* **gu** ```Make lowercase```
+* **gU** ```Make uppercase```
+* **>** ```Shift right```
+* **<** ```Shift left```
+* **=** ```Autoindent```
+* **!** ```Filter {motion}^lines through an external program```
