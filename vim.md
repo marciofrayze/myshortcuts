@@ -32,6 +32,13 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Delete paragraph:** ```dap```
 * **Delete line**: ```dd```
 
+## Delete (insert mode)
+* **Delete back one char**: ```<C-h>```
+* **Delete back one word**: ```<C-w>```
+* **Delete back to start of line**: ```<C-u>```
+
+
+
 ## Trigger / Effect
 * **c** ```Change```
 * **d** ```Delete```
