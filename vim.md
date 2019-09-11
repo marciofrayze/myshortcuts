@@ -21,7 +21,7 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 
 ## Insert Normal Mode
 * **Fire off a single comnmand (from insert mode) and go back to insert**: ```<C-o>``` (ex: ```<C-o>dd```)
-* **Paste**: ```<C-r>0```
+* **Paste**: ```<C-r>0``` (or 1, 2, 3...)
 
 ## Bookmark
 * **Show all bookmarks (toggle)**: ```ma```
