@@ -29,6 +29,8 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Select paragraph**: ```vip```
 * **Select line**: ```V```
 * **Select block**: ```<C-v>```
+* **Reselect**: ```gv```
+
 
 ## Bookmark
 * **Show all bookmarks (toggle)**: ```ma```
