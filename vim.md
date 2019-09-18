@@ -31,6 +31,8 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Select block**: ```<C-v>```
 * **Reselect**: ```gv```
 * **Go to the another end of selected text**: ```o```
+* **Visually select inside a tag**: ```vit```
+
 
 ## Bookmark
 * **Show all bookmarks (toggle)**: ```ma```
