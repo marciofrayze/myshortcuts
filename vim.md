@@ -30,7 +30,7 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Select line**: ```V```
 * **Select block**: ```<C-v>```
 * **Reselect**: ```gv```
-
+* **Go to the another end of selected text**: ```o```
 
 ## Bookmark
 * **Show all bookmarks (toggle)**: ```ma```
