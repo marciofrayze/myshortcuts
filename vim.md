@@ -32,8 +32,8 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Reselect**: ```gv```
 * **Go to the another end of selected text**: ```o```
 * **Visually select inside a tag**: ```vit```
-* **Change a word in 2 lines**: ```C<v>jje c <ESC>```
-
+* **Change a word in 3 lines**: ```C<v>jje c <ESC>```
+* **Append a ; in the end of 3 lines**: ```C<v>jj$ A; <ESC>```
 
 ## Bookmark
 * **Show all bookmarks (toggle)**: ```ma```
