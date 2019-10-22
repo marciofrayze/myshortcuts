@@ -74,5 +74,6 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 
 ## Spell checking
 * **Add word to dictionary**: ```zg```
+* **Remove word to dictionary**: ```zug```
 * **Enable spell checking (portuguese br)**: ```:setlocal spell spelllang=pt_br```
 * **Select next or previous to autocomplete**: ```<C-n>|<C-p>``` 
