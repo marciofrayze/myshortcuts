@@ -71,3 +71,8 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 
 ## Autocomplete
 * **Select next or previous option**: ```<C-n>|<C-p>``` 
+
+## Spell checking
+* **Add word to dictionary**: ```zg```
+* **Enable spell checking (portuguese br)**: ```:setlocal spell spelllang=pt_br```
+* **Select next or previous to autocomplete**: ```<C-n>|<C-p>``` 
