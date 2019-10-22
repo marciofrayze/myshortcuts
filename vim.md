@@ -68,3 +68,6 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 
 ## Nerdtree
 *  **Open|Close**: ```<C-n>```
+
+## Autocomplete
+* **Select next or previous option**: ```<C-n>|<C-p>``` 
