@@ -294,3 +294,16 @@ oc start-build <projectname>
 oc edit route/<name>  
 oc get svc 
 oc expose svc <servicename>  
+
+## Rancher
+`docker run -d --restart=unless-stopped \
+  -p 80:80 -p 443:443 \
+  -v /host/certs:/container/certs \
+  -e SSL_CERT_DIR="/container/certs" \
+  rancher/rancher:latest`
+  
+Open http://localhost:80
+
+Add a local microk8s or minikube instance: Clusters >> Add cluster >> Import an existing cluster
+
+If you are using microk8s, change the generated command to use `microk8s.kubectl` instead of `kubectl`
