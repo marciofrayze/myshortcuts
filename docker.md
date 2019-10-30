@@ -295,6 +295,9 @@ oc edit route/<name>
 oc get svc 
 oc expose svc <servicename>  
 
+## Minikube
+minikube start --vm-driver kvm2 --memory 6144 --cpus 2
+
 ## Rancher
 `docker run -d --restart=unless-stopped \
   -p 80:80 -p 443:443 \
