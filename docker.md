@@ -305,11 +305,7 @@ minikube start --vm-driver kvm2 --memory 6144 --cpus 2
 **List pods and kubectl in general:** sudo k3s kubecrl get pods
 
 ## Rancher
-`docker run -d --restart=unless-stopped \
-  -p 80:80 -p 443:443 \
-  -v /host/certs:/container/certs \
-  -e SSL_CERT_DIR="/container/certs" \
-  rancher/rancher:latest`
+`sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --name rancher rancher/rancher`
   
 Open http://localhost:80
 
