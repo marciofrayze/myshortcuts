@@ -298,6 +298,12 @@ oc expose svc <servicename>
 ## Minikube
 minikube start --vm-driver kvm2 --memory 6144 --cpus 2
 
+## k3s
+**Install:** curl -sfL https://get.k3s.io | sh -  
+**Install without load balancer (which uses port 80):** curl -sfL https://get.k3s.io | bash -s -- --no-deploy servicelb  
+**Stop:** sudo service k3s stop  
+**List pods and kubectl in general:** sudo k3s kubecrl get pods
+
 ## Rancher
 `docker run -d --restart=unless-stopped \
   -p 80:80 -p 443:443 \
