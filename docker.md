@@ -302,8 +302,8 @@ minikube start --vm-driver kvm2 --memory 6144 --cpus 2
 **Install/upgrade:** curl -sfL https://get.k3s.io | sh -  
 **Install without load balancer or another service:** curl -sfL https://get.k3s.io | bash -s -- --no-deploy servicelb  
 **Stop:** sudo service k3s stop  
-**List pods and kubectl in general:** sudo k3s kubecrl get pods
-**Uninstall k3s:** /usr/local/bin/k3s-uninstall.sh
+**List pods and kubectl in general:** sudo k3s kubecrl get pods  
+**Uninstall k3s:** /usr/local/bin/k3s-uninstall.sh  
 
 ## Rancher
 `sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --name rancher rancher/rancher`  
