@@ -306,8 +306,8 @@ minikube start --vm-driver kvm2 --memory 6144 --cpus 2
 **Uninstall k3s:** /usr/local/bin/k3s-uninstall.sh  
 
 ## Rancher
-`sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --name rancher rancher/rancher`  
-`sudo docker run -d --restart=unless-stopped -p 8080:80 -p 8443:443 --name rancher rancher/rancher`  
+`docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --name rancher rancher/rancher`  
+`docker run -d --restart=unless-stopped -p 8080:80 -p 8443:443 --name rancher rancher/rancher`  
   
 Open http://localhost:80
 
