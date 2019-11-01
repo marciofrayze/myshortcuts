@@ -309,7 +309,7 @@ minikube start --vm-driver kvm2 --memory 6144 --cpus 2
 `docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --name rancher rancher/rancher`  
 `docker run -d --restart=unless-stopped -p 8080:80 -p 8443:443 --name rancher rancher/rancher`  
   
-Open http://localhost:80
+Open http://localhost:80 or https://localhost:8443
 
 Add a local microk8s or minikube instance: Clusters >> Add cluster >> Import an existing cluster
 
