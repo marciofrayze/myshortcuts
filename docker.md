@@ -304,6 +304,7 @@ minikube start --vm-driver kvm2 --memory 6144 --cpus 2
 **Stop:** sudo service k3s stop  
 **List pods and kubectl in general:** sudo k3s kubecrl get pods  
 **Uninstall k3s:** /usr/local/bin/k3s-uninstall.sh  
+**Start as non-root:** curl -sfL https://get.k3s.io > k3s ; chmod +x k3s ; ./k3s server --disable-agent  
 
 ## Rancher
 `docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --name rancher rancher/rancher`  
