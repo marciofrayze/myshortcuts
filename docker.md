@@ -1,4 +1,4 @@
-# Docker/Kubernetes/Minikube/OpenShift/Minishift/Rancher
+# Docker/Kubernetes/Minikube/OpenShift/Minishift/Rancher/Virsh
 
 ## Docker
 docker build -t some/tagname .  
@@ -315,3 +315,10 @@ Open http://localhost:80 or https://localhost:8443
 Add a local microk8s or minikube instance: Clusters >> Add cluster >> Import an existing cluster
 
 If you are using microk8s, change the generated command to use `microk8s.kubectl` instead of `kubectl`
+
+## Virsh
+virsh net-list --all  
+virsh net-start minikube-net  
+sudo ifconfig virbr2 down  
+sudo brctl delbr virbr2  
+virsh net-start minikube-net   
