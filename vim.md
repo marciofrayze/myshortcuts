@@ -4,6 +4,7 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 
 ## File
 * **Open file**: ```:e filename```
+* **Reload .vimrc**: ```:source %```
 
 ## Run shell
 * **Run a shell command:** ```:!command```
