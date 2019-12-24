@@ -41,7 +41,7 @@ set timeout = 10
 set net_inc = 5
 
 # Default editor
-set editor = "emacs"
+set editor = "vim"
 
 # Sorting
 set sort = reverse-threads
