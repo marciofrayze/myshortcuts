@@ -77,4 +77,7 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Add word to dictionary**: ```zg```
 * **Remove word to dictionary**: ```zug```
 * **Enable spell checking (portuguese br)**: ```:setlocal spell spelllang=pt_br```
-* **Select next or previous to autocomplete**: ```<C-n>|<C-p>``` 
+* **Select next or previous to autocomplete**: ```<C-n>|<C-p>```
+
+## Links
+http://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf
