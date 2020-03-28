@@ -79,5 +79,15 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Enable spell checking (portuguese br)**: ```:setlocal spell spelllang=pt_br```
 * **Select next or previous to autocomplete**: ```<C-n>|<C-p>```
 
+## Symbols for ranges
+* **First line of file**: ```1```
+* **Last line of file**: ```$```
+* **Virtual line above the first one**: ```0```
+* **Line where the cursor is placed**: ```.```
+* **Line containing mark m**: ```'m```
+* **Start of visual selection**: ```'<```
+* **End of visual selection**: ```'>```
+* **Entire file (shortcut for 1,$)**: ```%```
+
 ## Links
 http://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf
