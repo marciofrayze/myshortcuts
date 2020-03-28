@@ -39,7 +39,8 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 ## Ex commands
 * **Copy line 6 and paste to just bellow current line**: ```:6t.``` or ```:6copy.```or ```:6co.```
 * **Copy line 6,7 and 8 and paste to just bellow line 8 line**: ```:6,8t8```
-
+* **Repeat last Ex command**: ```@:```
+* **Repeat a normal command on every line (in this example, appending a ; in the end of the line)**: ```:normal A;```
 
 ## Bookmark
 * **Show all bookmarks (toggle)**: ```ma```
