@@ -36,6 +36,11 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Change a word in 3 lines**: ```C<v>jje c <ESC>```
 * **Append a ; in the end of 3 lines**: ```C<v>jj$ A; <ESC>```
 
+## Ex commands
+* **Copy line 6 and paste to just bellow current line**: ```:6t.``` or ```:6copy.```or ```:6co.```
+* **Copy line 6,7 and 8 and paste to just bellow line 8 line**: ```:6,8t8```
+
+
 ## Bookmark
 * **Show all bookmarks (toggle)**: ```ma```
 * **Add/remove bookmark at current line**: ```mm```
