@@ -17,6 +17,11 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 ## Normal mode
 *  **Center current line**: ```zz```
 
+## Registers
+* **List registers**: ```:reg```
+* **Paste content from register "4**: ```"4p```
+* **Add selected texto to register r**"```"ry``` then paste it with: ```"rp```
+
 ## Visual-Block mode
 * **Enter Visual-Block mode**: ```<C-v>```
 
