@@ -2,10 +2,11 @@
 
 This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marciofrayze/dot-files/tree/master/vim) as mine.
 
-## File
+## Files and Directories
 * **Open file**: ```:e filename```
 * **Open file using filepath from active buffer**: ```:e %:h<TAB>```
-* **Reload .vimrc**: ```:source %```
+* **Open netrw (native file explorer)**: ```:E```
+* **Reload current file**: ```:source %```
 
 ## Run shell
 * **Run a shell command:** ```:!command```
