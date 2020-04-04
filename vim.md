@@ -109,5 +109,8 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 * **End of visual selection**: ```'>```
 * **Entire file (shortcut for 1,$)**: ```%```
 
-## Links
-http://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf
+## Links and info
+* **Cheat sheet**: http://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf
+* **Tutorial**: ```In your shell: vimtutor```
+* **Help about motion**: ```:h motion.txt```
+
