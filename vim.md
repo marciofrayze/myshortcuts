@@ -4,6 +4,7 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 
 ## File
 * **Open file**: ```:e filename```
+* **Open file using filepath from active buffer**: ```:e %:h<TAB>```
 * **Reload .vimrc**: ```:source %```
 
 ## Run shell
