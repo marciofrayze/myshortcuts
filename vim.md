@@ -8,6 +8,13 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Open netrw (native file explorer)**: ```:E```
 * **Reload current file**: ```:source %```
 
+## Netrw (:E)
+* **Create directory**: ```d```
+* **Delete file/directory**: ```D```
+* **Rename**: ```R```  
+More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff9631175c5d0f).
+
+
 ## Run shell
 * **Run a shell command:** ```:!command```
 * **Run a shell command and paste stdout into document:** ```:r!command```
