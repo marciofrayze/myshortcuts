@@ -3,15 +3,20 @@
 Some shortcuts assumes you are using the same [~/.vimrc](https://github.com/marciofrayze/dot-files/tree/master/vim) as mine.
 
 ## Normal mode
-*  **Center current line**: ```zz```
-*  **Forward to start of next word**: ```w```
-*  **Backward to end of current/previous word**: ```b```
-*  **Forward to end of current/next word**: ```e```
-*  **Backward to end of previous word**: ```ge```
-*  **Forward to start of next WORD**: ```W```
-*  **Backward to end of current/previous WORD**: ```B```
-*  **Forward to end of current/next WORD**: ```E```
-*  **Backward to end of previous WORD**: ```gE```
+* **Center current line**: ```zz```
+* **Forward to start of next word**: ```w```
+* **Backward to end of current/previous word**: ```b```
+* **Forward to end of current/next word**: ```e```
+* **Backward to end of previous word**: ```ge```
+* **Forward to start of next WORD**: ```W```
+* **Backward to end of current/previous WORD**: ```B```
+* **Forward to end of current/next WORD**: ```E```
+* **Backward to end of previous WORD**: ```gE```
+
+## Finding
+* **Find the first occurrence of {char} in current line and move to it**: ```f{char}```
+* **Repeat find the next ocurrence and move to it**: ```;```
+* **Repeat find the next ocurrence in backwards and move to it**: ```,```
 
 ## Files and Directories
 * **Open file**: ```:e filename```
