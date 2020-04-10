@@ -25,6 +25,10 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 
 ## Normal mode
 *  **Center current line**: ```zz```
+*  **Forward to start of next word**: ```w```
+*  **Backward to end of current/previous word**: ```b```
+*  **Forward to end of current/next word**: ```e```
+*  **Backward to end of previous word**: ```ge```
 
 ## Registers
 * **List registers**: ```:reg```
