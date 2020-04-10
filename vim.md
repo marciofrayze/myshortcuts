@@ -17,6 +17,7 @@ Some shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Find the first occurrence of {char} in current line and move to it**: ```f{char}```
 * **Repeat find the next ocurrence and move to it**: ```;```
 * **Repeat find the next ocurrence in backwards and move to it**: ```,```
+* **Find the next ocurrence in backwards and move to it**: ```F{char}```
 
 ## Files and Directories
 * **Open file**: ```:e filename```
