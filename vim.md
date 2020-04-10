@@ -1,6 +1,17 @@
 # Shortcuts vim
 
-This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marciofrayze/dot-files/tree/master/vim) as mine.
+Some shortcuts assumes you are using the same [~/.vimrc](https://github.com/marciofrayze/dot-files/tree/master/vim) as mine.
+
+## Normal mode
+*  **Center current line**: ```zz```
+*  **Forward to start of next word**: ```w```
+*  **Backward to end of current/previous word**: ```b```
+*  **Forward to end of current/next word**: ```e```
+*  **Backward to end of previous word**: ```ge```
+*  **Forward to start of next WORD**: ```W```
+*  **Backward to end of current/previous WORD**: ```B```
+*  **Forward to end of current/next WORD**: ```E```
+*  **Backward to end of previous WORD**: ```gE```
 
 ## Files and Directories
 * **Open file**: ```:e filename```
@@ -14,7 +25,6 @@ This shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Rename**: ```R```  
 More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff9631175c5d0f).
 
-
 ## Run shell
 * **Run a shell command:** ```:!command```
 * **Run a shell command and paste stdout into document:** ```:r!command```
@@ -22,13 +32,6 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 ## Tabs and Windows
 * **Switch tabs**: ```gt```
 * **Move from one window to another**: ```<C-w>h|l```
-
-## Normal mode
-*  **Center current line**: ```zz```
-*  **Forward to start of next word**: ```w```
-*  **Backward to end of current/previous word**: ```b```
-*  **Forward to end of current/next word**: ```e```
-*  **Backward to end of previous word**: ```ge```
 
 ## Registers
 * **List registers**: ```:reg```
