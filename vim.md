@@ -101,7 +101,6 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 * **Add word to dictionary**: ```zg```
 * **Remove word to dictionary**: ```zug```
 * **Enable spell checking (portuguese br)**: ```:setlocal spell spelllang=pt_br```
-* **Select next or previous to autocomplete**: ```<C-n>|<C-p>```
 
 ## Symbols for ranges
 * **First line of file**: ```1```
