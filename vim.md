@@ -38,9 +38,6 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 * **Paste content from register "4**: ```"4p```
 * **Add selected texto to register r**"```"ry``` then paste it with: ```"rp```
 
-## Visual-Block mode
-* **Enter Visual-Block mode**: ```<C-v>```
-
 ## Insert Normal Mode
 * **Fire off a single comnmand (from insert mode) and go back to insert**: ```<C-o>``` (eg: ```<C-o>dd```)
 * **Paste**: ```<C-r>0``` (or 1, 2, 3...)
