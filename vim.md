@@ -96,9 +96,6 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 * **=** ```Autoindent```
 * **!** ```Filter {motion}^lines through an external program```
 
-## Nerdtree
-*  **Open|Close**: ```<C-n>```
-
 ## Autocomplete
 * **Select next or previous option**: ```<C-n>|<C-p>``` 
 
