@@ -13,6 +13,15 @@ Some shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Forward to end of current/next WORD**: ```E```
 * **Backward to end of previous WORD**: ```gE```
 
+## Jumps
+* **Jump back to previous place**: ```ctr-o```
+* **Jump forward to next place**: ```ctr-i```
+* **List jumps**: ```:jumps```
+* **Jump to line**: ```[count]G```
+* **Jump to top, middle, bottom of screen**: ```H / M / L```
+* **Jump to mark**: ``` `{mark} or '{mark}```
+* **Jump to definition of keyword under the cursor**: ```ctr-]```
+
 ## Finding
 * **Find the first occurrence of {char} in current line and move to it**: ```f{char}```
 * **Repeat find the next ocurrence and move to it**: ```;```
