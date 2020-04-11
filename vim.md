@@ -24,6 +24,8 @@ Some shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Open file using filepath from active buffer**: ```:e %:h<TAB>```
 * **Open netrw (native file explorer)**: ```:E```
 * **Reload current file**: ```:source %```
+* **Open multiple files splitting windows**: ```vim file1 file2 -O```
+* **Diffing the files from multiple windows**: ```:windo difft```
 
 ## Netrw (:E)
 * **Create directory**: ```d```
