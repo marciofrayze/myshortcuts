@@ -29,6 +29,7 @@ Some shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Repeat find the next ocurrence and move to it**: ```;```
 * **Repeat find the next ocurrence in backwards and move to it**: ```,```
 * **Find the next ocurrence in backwards and move to it**: ```F{char}```
+* **Grep files (and go to first occurrence)**: ```:vimgrep {pattern} {files-pattern}
 
 ## Files and Directories
 * **Open file**: ```:e filename```
