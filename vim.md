@@ -21,6 +21,7 @@ Some shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Jump to top, middle, bottom of screen**: ```H / M / L```
 * **Jump to mark**: ``` `{mark} or '{mark}```
 * **Jump to definition of keyword under the cursor**: ```ctr-]```
+* **Jump to filename under the cursor**: ```gf```
 
 ## Finding
 * **Find the first occurrence of {char} in current line and move to it**: ```f{char}```
