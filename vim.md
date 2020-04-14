@@ -22,6 +22,7 @@ Some shortcuts assumes you are using the same [~/.vimrc](https://github.com/marc
 * **Jump to mark**: ``` `{mark} or '{mark}```
 * **Jump to definition of keyword under the cursor**: ```ctr-]```
 * **Jump to filename under the cursor**: ```gf```
+* **Set global (and persisted) mark**: ```m{some-capital-letter}```
 
 ## Finding
 * **Find the first occurrence of {char} in current line and move to it**: ```f{char}```
