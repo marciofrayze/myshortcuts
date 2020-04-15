@@ -80,13 +80,6 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 * **Repeat last Ex command**: ```@:```
 * **Repeat a normal command on every line (in this example, appending a ; in the end of the line)**: ```:normal A;```
 
-## Bookmark
-* **Show all bookmarks (toggle)**: ```ma```
-* **Add/remove bookmark at current line**: ```mm```
-* **Add/edit/remove annotation at current line**: ```mi```
-* **Jump to next bookmark in buffer**: ```mn```
-* **Jump to previous bookmark in buffer**: ```mp```
-
 ## Delete
 * **Delete**: ```d{motion}```
 * **Delete single char:** ```dl```
