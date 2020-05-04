@@ -100,7 +100,7 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 * **Increase width**: ```<C-w>>```
 * **Decrease witdh**: ```<C-w><```
 * **Set height**: ```<number><C-w>_```
-* **Set witdh**: ```<C-w>|```
+* **Set witdh**: ```<number><C-w>|```
 * **Equalize witdh and height of all windows**: ```<C-w>=```
 
 ## Trigger / Effect
