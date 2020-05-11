@@ -7,3 +7,4 @@ Ctrl+b " Split current pane vertically into two panes
 Ctrl+b o Go to the next pane  
 Ctrl+b ; Toggle between the current and previous pane  
 Ctrl+b x Close the current pane  
+Ctrl+b <Arrow keys> Resize pane
