@@ -1,5 +1,5 @@
 **Start named session**: tmux new -s session_name
-
+**Ctrl+b \[**: Enters scroll mode (then you may use arrow keys or pageup/pagedown. Press q to quit scroll mode. 
 **Ctrl+b c**: Create a new window (with shell)  
 **Ctrl+b w**: Choose window from a list  
 **Ctrl+b 0**: Switch to window 0 (by number)  
