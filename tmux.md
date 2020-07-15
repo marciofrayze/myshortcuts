@@ -14,3 +14,9 @@
 **Ctrl+b ;**: Toggle between the current and previous pane  
 **Ctrl+b x**: Close the current pane  
 **Ctrl+b <Arrow keys>**: Resize pane
+
+**Tmux-resurect**  
+https://github.com/tmux-plugins/tmux-resurrect  
+
+**Ctrl+b + Ctrl-s**: save  
+**Ctrl+b + Ctrl-r**: restore
