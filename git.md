@@ -1,6 +1,6 @@
 # Git
 
-Just some commands that I always forget. If you want to learn git, this this free/online book: https://git-scm.com/book
+Just some commands that I always forget. If you want to learn git, check this free/online book: https://git-scm.com/book
 
 ## Stash all
 ```
