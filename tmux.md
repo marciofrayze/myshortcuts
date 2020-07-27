@@ -13,7 +13,13 @@
 **Ctrl+b o**: Go to the next pane  
 **Ctrl+b ;**: Toggle between the current and previous pane  
 **Ctrl+b x**: Close the current pane  
-**Ctrl+b <Arrow keys>**: Resize pane
+**Ctrl+b <Arrow keys\>**: Resize pane  
+
+## Window
+**Ctr+b c**: Create new window
+**Ctr+b ,**: Rename current window  
+**Ctr+b &**: Close current window  
+**Ctr+b p**: Previews window  
 
 **Tmux-resurect**  
 https://github.com/tmux-plugins/tmux-resurrect  
