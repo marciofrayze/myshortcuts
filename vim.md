@@ -138,7 +138,7 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 * **Tutorial**: ```In your shell: vimtutor```
 * **Help about motion**: ```:h motion.txt```
 
-## oc
+## Coc
 * **Go to next error/diagostic**: ]g  
 * **Go to previous error/diagostic**: [g  
 * **Go to definition:** gd  
