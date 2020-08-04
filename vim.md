@@ -148,3 +148,4 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 
 ## Git
 * **Git blame**: :Git blame
+* **Git logs**: :Glog
