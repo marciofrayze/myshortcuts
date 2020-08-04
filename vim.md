@@ -147,5 +147,5 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 * **Auto fix:** \af  
 
 ## Git
-* **Git blame**: :Git blame
+* **Git blame**: :Gblame
 * **Git logs**: :Glog
