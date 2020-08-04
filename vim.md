@@ -149,3 +149,4 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 ## Git
 * **Git blame**: :Gblame
 * **Git logs**: :Glog
+* **Git logs related to current file only**: :Glog -- %
