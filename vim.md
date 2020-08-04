@@ -145,3 +145,6 @@ More shortcuts [here](https://gist.github.com/danidiaz/37a69305e2ed3319bfff96311
 * **Go to implementation:** gi  
 * **Go to references:** gr  
 * **Auto fix:** \af  
+
+## Git
+* **Git blame**: :Git blame
