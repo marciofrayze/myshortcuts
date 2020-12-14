@@ -307,8 +307,8 @@ minikube start --vm-driver kvm2 --memory 6144 --cpus 2
 **Start as non-root:** curl -sfL https://get.k3s.io > k3s ; chmod +x k3s ; ./k3s server --disable-agent  
 
 ## Rancher
-`docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --name rancher rancher/rancher`  
-`docker run -d --restart=unless-stopped -p 8080:80 -p 8443:443 --name rancher rancher/rancher`  
+`docker run --privileged -d --restart=unless-stopped -p 80:80 -p 443:443 --name rancher rancher/rancher`  
+`docker run --privileged -d --restart=unless-stopped -p 8080:80 -p 8443:443 --name rancher rancher/rancher`  
   
 Open http://localhost:80 or https://localhost:8443
 
