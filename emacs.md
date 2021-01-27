@@ -9,7 +9,7 @@
 
 ## Switch
 
-* **Previous|Next buffer**: C-x LEFT|RIGHT
+* **Previous|Next buffer**: C-x LEFT|RIGHT (in term mode, use C-c instead)
 * **Another window**: C-x o
 * **Kill current window**: C-x 0
 
