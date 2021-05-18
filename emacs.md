@@ -46,4 +46,5 @@
 
 ## Clojure / Cider
 
-**Start/connect to server**: :cider-jack-in
+**Start/connect to server**: :cider-jack-in  
+**Compile**: C-c C-k ou :cider-load-buffer  
