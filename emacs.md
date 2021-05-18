@@ -43,3 +43,7 @@
 ## Dired
 
 **Enter edit mode**: C-x C-q
+
+## Clojure / Cider
+
+**Start/connect to server**: :cider-jack-in
