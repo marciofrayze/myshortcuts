@@ -16,7 +16,7 @@
 **Ctrl+b <Arrow keys\>**: Resize pane  
 
 ## Window
-**Ctr+b c**: Create new window
+**Ctr+b c**: Create new window  
 **Ctr+b ,**: Rename current window  
 **Ctr+b &**: Close current window  
 **Ctr+b p**: Previews window  
